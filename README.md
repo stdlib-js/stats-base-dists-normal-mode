@@ -67,7 +67,7 @@ The [mode][mode] for a [normal][normal-distribution] random variable with mean `
 ## Usage
 
 ```javascript
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-mode@v0.2.1-deno/mod.js';
 ```
 
 #### mode( mu, sigma )
@@ -127,7 +127,7 @@ y = mode( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-mode@deno/mod.js';
+import mode from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-normal-mode@v0.2.1-deno/mod.js';
 
 var sigma;
 var mu;
