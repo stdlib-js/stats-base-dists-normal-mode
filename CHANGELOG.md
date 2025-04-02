@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-04-02)
+
+<section class="features">
+
+### Features
+
+-   [`e1cc668`](https://github.com/stdlib-js/stdlib/commit/e1cc668e2474674d20324fd8556db9d735be3453) - add C implementation for `stats/base/dists/normal/mode` [(#3998)](https://github.com/stdlib-js/stdlib/pull/3998)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3779](https://github.com/stdlib-js/stdlib/issues/3779)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`e1cc668`](https://github.com/stdlib-js/stdlib/commit/e1cc668e2474674d20324fd8556db9d735be3453) - **feat:** add C implementation for `stats/base/dists/normal/mode` [(#3998)](https://github.com/stdlib-js/stdlib/pull/3998) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +47,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Manvith M
 -   Philipp Burckhardt
 
 </section>
