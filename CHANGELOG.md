@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`4d4ff63`](https://github.com/stdlib-js/stdlib/commit/4d4ff6319d8ba6b8b3de51a7e6b1d371efb67a95) - **chore:** clean-up _(by Athan Reines)_
 -   [`e1cc668`](https://github.com/stdlib-js/stdlib/commit/e1cc668e2474674d20324fd8556db9d735be3453) - **feat:** add C implementation for `stats/base/dists/normal/mode` [(#3998)](https://github.com/stdlib-js/stdlib/pull/3998) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
 
@@ -47,8 +48,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Manvith M
 -   Philipp Burckhardt
 
