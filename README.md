@@ -144,20 +144,17 @@ y = mode( 0.0, -1.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var randu = require( '@stdlib/random-base-randu' );
+var uniform = require( '@stdlib/random-array-uniform' );
+var logEachMap = require( '@stdlib/console-log-each-map' );
 var mode = require( '@stdlib/stats-base-dists-normal-mode' );
 
-var sigma;
-var mu;
-var y;
-var i;
+var opts = {
+    'dtype': 'float64'
+};
+var sigma = uniform( 10, 0.0, 20.0, opts );
+var mu = uniform( 10, -5.0, 5.0, opts );
 
-for ( i = 0; i < 10; i++ ) {
-    mu = ( randu()*10.0 ) - 5.0;
-    sigma = randu() * 20.0;
-    y = mode( mu, sigma );
-    console.log( 'µ: %d, σ: %d, mode(X;µ,σ): %d', mu.toFixed( 4 ), sigma.toFixed( 4 ), y.toFixed( 4 ) );
-}
+logEachMap( 'µ: %0.4f, σ: %0.4f, mode(X;µ,σ): %0.4f', mu, sigma, mode );
 ```
 
 </section>
@@ -319,8 +316,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 

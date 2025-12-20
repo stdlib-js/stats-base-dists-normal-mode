@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-12-20)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`6fe0761`](https://github.com/stdlib-js/stdlib/commit/6fe0761c9b399fae0e81992d5dda665cebaee019) - **docs:** replace manual `for` loop in examples [(#9055)](https://github.com/stdlib-js/stdlib/pull/9055) _(by Harsh Yadav)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`4d4ff63`](https://github.com/stdlib-js/stdlib/commit/4d4ff6319d8ba6b8b3de51a7e6b1d371efb67a95) - **chore:** clean-up _(by Athan Reines)_
 -   [`e1cc668`](https://github.com/stdlib-js/stdlib/commit/e1cc668e2474674d20324fd8556db9d735be3453) - **feat:** add C implementation for `stats/base/dists/normal/mode` [(#3998)](https://github.com/stdlib-js/stdlib/pull/3998) _(by Manvith M, Philipp Burckhardt, stdlib-bot)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
@@ -48,9 +51,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Harsh Yadav
 -   Manvith M
 -   Philipp Burckhardt
 
